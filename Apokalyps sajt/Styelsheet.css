@@ -1,0 +1,430 @@
+html 
+{ 
+
+    background-color: Black;  
+    background-position: center top;
+   
+}
+
+#body
+{
+    text-align: center;    
+}
+
+#wrapper
+{
+    
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+ #header 
+{
+    background-image: url("../Pics/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 960px;
+    height: 700px;
+      
+    
+}
+
+
+
+
+#menu
+{
+    margin-top: -40px;
+	background-color:#000000; 	
+	opacity: 0.8;
+
+
+
+
+    width: 1336px;    
+    height: 40px;
+	margin-left: auto;
+	margin-right:auto;
+   
+    
+}
+
+#menu ul 
+{
+    list-style: none;  
+    float: left;
+	margin-left: 10%;
+
+}
+
+#menu li {
+
+    display: block;     
+     
+}
+
+#menu a {
+
+color: #AB9E69;
+/**/
+text-decoration: none;
+
+}
+
+#dropdown {
+
+float:left;
+margin: 0;
+padding: 0;
+
+}	
+
+#dropdown li {
+
+    
+float:left;
+margin: 0;
+padding:10px 40px 0 40px;
+position: relative;
+width: 150px;  
+    
+    
+}
+
+#dropdown li:hover {
+
+background-color:#FFFF;
+
+left: 1px;
+    
+
+}	
+
+#dropdown li:hover a {
+    color: #324771;
+}
+
+#dropdown ul {
+    
+display:none;
+margin: 0;
+padding: 0;
+position: absolute;
+z-index: 500;
+left: 10px;
+
+
+    
+}
+
+#dropdown ul {
+position: absolute;
+}
+
+#dropdown li:hover ul {
+display: block;
+background-color: #324771;
+
+ 
+}
+
+#dropdown li:hover ul a{
+color: #AB9E69 ;
+}
+
+#tourdates
+{
+    margin-top: 30px;
+    background-color: White;    
+    width: 45%;
+    height: 400px;
+    float:left;
+    text-align: center;  
+        
+}
+
+#tourdates p, a
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;	
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	margin-right: 70px;
+}
+
+#tourheader
+{
+    width: 100%;
+    height: 100px;
+    background-color: Gray;
+	background-image:url(../Pics/Untitled-3-2-2.png);
+	background-repeat:no-repeat;
+	background-size: 101%;
+	background-position: center center;
+
+	
+}
+
+#dates ul 
+{
+	width: 100%
+	float:left;
+    margin-top: 0px;
+    list-style: none;
+
+ 
+}
+
+#dates li
+{
+	margin-left: -40px;
+	
+}
+
+#dates li:nth-child(even) p
+{
+	color: FFFFFF;
+
+}
+
+#dates ul li:nth-child(even)
+{
+	background-color:#324771;
+	
+	padding: 1px;
+}
+
+    
+#ad 
+{   
+    margin-top: 30px;
+    background-color: White;
+    width: 45%;
+    height: 400px;
+    float: right;     
+    background-size: cover;
+    display: block;  
+    text-align: center;  
+}
+
+#ad img 
+{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    margin-top: 30px;   
+    background-color: White;
+    width: 1336px;       
+    float: left; 
+    text-align: center;
+	margin-bottom: 50px;	
+}
+
+
+#twitter
+{
+    float: right;
+    margin-right: 50px;  
+    margin-top: 20px;
+	position: static;
+	
+}
+
+#fb
+{
+    float: right;
+    margin-top: 20px;
+	margin-right: 50px;
+	position:: static;
+	
+	  
+}
+
+#insta
+{    
+    float: right;	
+	margin-right: 20px;
+	
+	margin-top: 20px;
+
+
+    
+}
+
+
+#youtube
+{
+	float: right;
+	margin-right: -35px;
+	margin-top: 20px;
+	
+}
+
+#soundcloud
+{
+	float: right;	
+	margin-right: -35px;
+	margin-top: 20px
+}
+
+#news,#gigs, #videos, #pictures, #guestbook, #contact
+{
+	float: left;
+	width: 801px;
+	margin-left: 50px;
+
+}
+
+
+
+.row {
+
+width: 100%;
+border-bottom: 2px solid #324771;
+padding: 5px;
+
+}
+
+
+	
+#gigs ul 
+{
+	list-style: none;
+}
+
+#fillerbottom
+{
+	width: 1336;
+	height: 20px;
+	margin-top: 100%;
+}
+
+.vid
+{
+	float:left;
+	margin-left: 50px;
+	margin-top: 50px;
+
+
+
+}
+
+.pic img
+{
+	width: 350;
+	height: 233px;
+	float: left;
+	margin-right: 50px;
+	margin-top: 50px;
+	z-index: 1
+	margin-top: 20px;
+	
+}
+
+#smallpics img
+{
+	margin-right: 50px;
+}
+
+.futurico-theme.slider-wrapper {
+    position: relative;
+    width: 690px;
+    height: 518px;
+    margin: 0;
+    padding: 5px;
+ 
+    background: #141517;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;	
+}
+
+
+.futurico-theme .nivo-controlNav {
+    position: absolute;
+    bottom: -30px;
+    left: 105px;
+}
+
+.futurico-theme .nivo-controlNav a {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    text-indent: -9999px;
+ 
+    background: #141517;
+ 
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+ 
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+}
+
+.futurico-theme .nivo-controlNav a.active,
+.futurico-theme .nivo-caption span {
+    background: #a5cd4e;
+    background: -moz-linear-gradient(top,  #a5cd4e 0%, #6b8f1a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
+    background: -webkit-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: -o-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: -ms-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+ 
+    -webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+    -moz-box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+    box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+}
+
+.futurico-theme .nivo-directionNav a {
+    display: block;
+    top: 60px;
+ 
+    font-family: 'Consolas', sans-serif;
+    font-size: 40px;
+    color: #141517;
+    text-shadow: 0px 1px 1px rgba(255,255,255, .05);
+}
+ 
+.futurico-theme a.nivo-prevNav { left: -40px; }
+ 
+.futurico-theme a.nivo-nextNav { right: -40px; }
+
+body,td,th {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+
+color: #324771;
+margin-bottom: 20px;
+font-size: 2.5em;
+
+}
+
+#dates p
+{
+	font-size:14px;
+}
+
+#gigs p
+{
+	font-size: 18px;
+	color: #324771;
+}
+
+#dates a 
+{	
+	font-size: 14px;
+	font-weight: 700;
+	color: #324771;
+}
